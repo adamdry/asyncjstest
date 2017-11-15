@@ -6,6 +6,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "app": "node index.js"
+    "app": "node index.js",
+    "promise": "node promise.js",
+    "aa": "node asyncawait.js",
+    "aa2": "node asynctest.js"
   }
 }
