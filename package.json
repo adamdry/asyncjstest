@@ -2,6 +2,7 @@
   "name": "asyncjstest",
   "version": "0.0.1",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "express": "^4.16.2"
   },
   "devDependencies": {},
@@ -9,6 +10,7 @@
     "app": "node index.js",
     "promise": "node promise.js",
     "aa": "node asyncawait.js",
-    "aa2": "node asynctest.js"
+    "aa2": "node asynctest.js",
+    "promisify": "node promisify.js"
   }
 }

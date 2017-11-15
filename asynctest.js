@@ -37,3 +37,9 @@ function getFromDb() {
         return resolve(23)
     })
 }
+
+
+
+fs.readFile('blah.txt', function(contents, fileSize, fileExtension) {
+
+})
