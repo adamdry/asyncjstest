@@ -47,18 +47,26 @@ function uisefhseui() {
     return startsOffNormalFunc()
 }
 
-let result2 = uisefhseui()
-    .then((result) => )
-console.log(result2 / 12)
+// let result2 = uisefhseui()
+//     .then((result) => )
+// console.log(result2 / 12)
 
 
 async function updateTheUserTwiceProd() {
 
     let userEmail = await getEmailFromDb('admin')
-    // let updateWorked = await updateUserBasedOnEmail(userEmail)
-    // updateWorked = await updateUserBasedOnEmail(userEmail)
-    await myBusinessLogic(username)
+     let updateWorked = await updateUserBasedOnEmail(userEmail)
+     updateWorked = await updateUserBasedOnEmail(userEmail)
+    //await myBusinessLogic(username)
+
+    // do some stuff
+
+    return 'aukfhuseifh'
 }
+
+updateTheUserTwiceProd()
+
+
 
 async function myBusinessLogic(userEmail) {
     let updateWorked = await updateUserBasedOnEmail(userEmail)

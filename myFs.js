@@ -11,7 +11,7 @@ class MyFs {
 
         setTimeout(() => {
             callback(null, 'This is the file contents', 23)
-        }, 500)
+        }, 2000)
 
     }
 
@@ -21,7 +21,7 @@ class MyFs {
 
         setTimeout(() => {
             callback('This is the file contents 22', 22222222)
-        }, 500)
+        }, 2000)
 
     }
 

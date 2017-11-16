@@ -1,5 +1,12 @@
-const myFs = require("./myFs")
+let myFs = require("./myFs")
 const BB = require('bluebird')
+
+BB.promisifyAll(myFs);
+
+(async () => {
+    const contents = await myFs.readFileAsync('filename.txt')
+    console.log('promisifyAll: ', contents)
+})()
 
 
 myFs.readFile('filename.txt', (err, contents, filesize) => {
