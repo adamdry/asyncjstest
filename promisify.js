@@ -3,7 +3,8 @@ const BB = require('bluebird')
 
 BB.promisifyAll(myFs);
 
-(async () => {
+// name the anon function
+(async myReadFileAsync => {
     const contents = await myFs.readFileAsync('filename.txt')
     console.log('promisifyAll: ', contents)
 })()
